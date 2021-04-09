@@ -1,2 +1,2 @@
 # google-clone-web
-google-clone-webcc.netlify.app
+https://google-clone-webcc.netlify.app
