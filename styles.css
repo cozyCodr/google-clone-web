@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    line-height: 0px;
+}
+
+.left-nav {
+    display: flex;
+    text-transform: capitalize
+}
+
+#all-text {
+    display: none;
+}
+
+.right-nav {
+    display: flex;
+}
+
+.space-btwn-nav-items {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#toggle {
+    display: none;
+    width: 30px
+}
+
+main {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#google-image img {}
+
+#google-apps {
+    width: 27px;
+    opacity: 0.6;
+}
+
+#name-logo img {
+    border-radius: 50%;
+}
+
+#icon {
+    width: 20px;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+
+form {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#icon-btn {
+    border: none;
+    background: none;
+    position: relative;
+    top: 33px;
+    left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input-div {
+    display: flex;
+    justify-content: center;
+    width: 100%
+}
+
+#search-input {
+    width: 600px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid #ddd;
+    padding: 1rem 3rem;
+}
+
+#search-buttons {
+    display: flex;
+    margin-top: 30px;
+    width: 90%;
+    justify-content: center
+}
+
+.btn-spacing-color {
+    background-color: white;
+    margin: 0px 10px;
+    width: 130px;
+    height: 30px;
+    border: 1px solid #f8f9fa;
+    border-radius: 2px;
+    background-color: #f8f9fa;
+}
+
+.btn-spacing-color:hover {
+    box-shadow: 0px 0px 2px 1px #ddd;
+    cursor: pointer;
+}
+
+
+#languages {
+    margin-top: 20px;
+    display: flex;
+    font-size: small;
+}
+
+#languages p {
+    margin: 0px 10px;
+}
+
+#languages ul {
+    display: flex;
+}
+
+#languages ul li {
+    padding-right: 10px;
+    color: #1a0dab;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr {
+    opacity: 0.6;
+    border-top: none;
+}
+
+#div-ctry {
+    display: flex;
+    width: 100%;
+}
+
+#country {
+    padding: 1rem 2rem;
+    font-size: 16px;
+    opacity: 0.4;
+}
+
+#div-location {
+    display: none;
+}
+
+
+#div-more {
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+
+#left-list ul {
+    display: flex;
+}
+
+#right-list ul {
+    display: flex;
+}
+
+#div-more li {
+    padding-right: 2rem;
+    line-height: 4rem;
+    color: #999;
+}
+
+@media only screen and (max-width: 700px) {
+
+    #search-input {
+        width: 475px;
+    }
+
+    #div-more {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer {
+        height: 12rem;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    #search-input {
+        width: 375px;
+    }
+}
+
+/* Some HTML elements have been left in in the case of trying to make a mobile first Google Clone*/
